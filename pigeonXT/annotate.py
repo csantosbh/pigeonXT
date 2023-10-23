@@ -270,8 +270,7 @@ def annotate(
                     ]
                 )
 
-            decorated_text = HTML(style_text + f"<body><div>{example_text}</div></body>")
-            display_fn(decorated_text)
+            display_fn(example_text)
 
     def add_annotation(annotation):
         """Toggle annotation."""
